@@ -145,15 +145,121 @@ Reducción de latencia durante picos y alertas en tiempo real con información a
 
 ---
 
-# 👨‍💻 Guía para Desarrolladores
+## 👨‍💻 Guía para Desarrolladores
 
-Esta sección está pensada para quienes quieran trabajar con el proyecto desde dentro: hacer cambios, probar funciones nuevas o colaborar en mejoras. No necesitas ser un experto; aquí encontrarás lo esencial para empezar.
+Esta sección está dirigida a quienes necesitan trabajar con el código fuente, integrar NetGuard Pro con otros sistemas o extender sus funcionalidades. Aquí encontrarás una descripción clara de la estructura del proyecto, cómo configurarlo, cómo ejecutar pruebas y las pautas necesarias para contribuir correctamente.
 
 ---
 
+### 📁 Estructura del Proyecto
 
+NetGuard Pro está organizado en módulos para facilitar el mantenimiento y el trabajo colaborativo:
+
+```
+/src
+  /backend        → Servicios internos, motor de análisis y lógica del sistema
+  /frontend       → Interfaz web y panel de control
+  /api            → Endpoints REST/GraphQL para integraciones externas
+/config           → Archivos de configuración base y plantillas
+/scripts          → Herramientas para despliegues, automatización y entornos locales
+/tests            → Pruebas unitarias, de integración y validación
+/docs             → Documentación extendida y referencias técnicas
+```
+
+Cada módulo está diseñado para ser independiente, lo que facilita la depuración y la escalabilidad.
+
+---
+
+### ▶️ Preparar el Entorno de Desarrollo
+
+1. **Clonar el repositorio**
+```bash
 git clone https://github.com/tu-org/netguard-pro.git
 cd netguard-pro
+```
+
+2. **Instalar dependencias**
+
+Frontend:
+```bash
+cd src/frontend
+npm install
+```
+
+Backend:
+```bash
+cd src/backend
+pip install -r requirements.txt
+```
+
+3. **Configurar variables de entorno**
+```bash
+cp .env.example .env
+```
+
+4. **Iniciar servicios**
+
+Backend:
+```bash
+./scripts/start-backend.sh
+```
+
+Frontend:
+```bash
+./scripts/start-frontend.sh
+```
+
+---
+
+### 🔍 Flujo Interno del Sistema
+
+- El backend procesa tráfico, analiza eventos y gestiona reglas.
+- El frontend muestra métricas y tráfico en tiempo real.
+- La API permite integraciones externas.
+- Los scripts ayudan con despliegues y automatización.
+
+---
+
+### 🧪 Pruebas
+
+```bash
+./scripts/run-tests.sh
+```
+
+---
+
+### 🧱 Estándares de Código
+
+- Frontend: ESLint + Prettier  
+- Backend: PEP8 + Black  
+- Commits: Conventional Commits  
+- Pull Requests: incluir descripción y pasos de prueba  
+
+---
+
+### 🤝 Directrices de Contribución
+
+1. Crear rama:
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+
+2. Seguir estándares de código.  
+3. Ejecutar pruebas.  
+4. Documentar cambios importantes.  
+5. Enviar Pull Request.
+
+---
+
+### 🔒 Consideraciones de Seguridad
+
+- No subir `.env` ni claves.  
+- Mantener dependencias seguras.  
+- Usar cifrado en servicios internos.  
+
+
+
+
 ## 💼 Licenciamiento y Precios
 
 NetGuard Pro utiliza un modelo de suscripción diseñado para adaptarse a diferentes tipos de organizaciones, desde pequeños equipos hasta empresas con infraestructura de red compleja. Los precios pueden variar según la región, el volumen de servidores y los requisitos específicos del cliente.
