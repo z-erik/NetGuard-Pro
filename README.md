@@ -147,16 +147,54 @@ Reducción de latencia durante picos y alertas en tiempo real con información a
 
 # 👨‍💻 Guía para Desarrolladores
 
-### 📁 Estructura del Repositorio
+Esta sección está pensada para quienes quieran trabajar con el proyecto desde dentro: hacer cambios, probar funciones nuevas o colaborar en mejoras. No necesitas ser un experto; aquí encontrarás lo esencial para empezar.
 
--/docs # Documentación
--/src # Código fuente
--/backend # Lógica principal
--/frontend # Panel de control
--/api # Endpoints
--/config # Configuraciones
--/tests # Pruebas
--/scripts # Automatización y CI/CD
+---
+
+### ▶️ Cómo preparar tu entorno
+
+Sigue estos pasos para poner el proyecto en funcionamiento en tu computadora:
+
+#### 1. Clonar el proyecto
+```bash
+git clone https://github.com/tu-org/netguard-pro.git
+cd netguard-pro
+## 💼 Licenciamiento y Precios
+
+NetGuard Pro utiliza un modelo de suscripción diseñado para adaptarse a diferentes tipos de organizaciones, desde pequeños equipos hasta empresas con infraestructura de red compleja. Los precios pueden variar según la región, el volumen de servidores y los requisitos específicos del cliente.
+
+### 🔹 Planes Disponibles
+
+| Plan | Servidores incluidos | Precio |
+|------|-----------------------|--------|
+| **Equipos Pequeños** | Hasta 5 servidores | **$499 USD / mes** |
+| **Organizaciones Medianas** | Hasta 15 servidores | **$1,299 USD / mes** |
+| **Enterprise** | 16 servidores o más | **Cotización personalizada** |
+
+---
+
+### 🔑 Tipos de Licencia
+
+- **Licencia Estándar:** incluye monitoreo básico, panel de control y soporte estándar.
+- **Licencia Enterprise:** incluye soporte prioritario, integraciones avanzadas, automatización ampliada y opciones de personalización.
+- **Licencia de Prueba:** permite usar NetGuard Pro durante **30 días** con un conjunto limitado de funciones premium.
+
+---
+
+### 📝 Notas sobre licenciamiento
+
+- Los precios pueden ajustarse según la cantidad de servidores y el nivel de soporte requerido.  
+- Los planes anuales incluyen descuentos adicionales.  
+- La actualización de un plan inferior a uno superior puede hacerse en cualquier momento.  
+- Todos los planes incluyen acceso a actualizaciones menores del sistema.  
+
+---
+
+### 📞 Información Comercial
+
+Para cotizaciones personalizadas, descuentos por volumen o asistencia para elegir un plan, contacta a nuestro equipo comercial en:
+
+**ventas@netguardsolutions.com**
 
 
 
