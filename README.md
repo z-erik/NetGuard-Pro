@@ -192,4 +192,24 @@ Para cotizaciones personalizadas, descuentos por volumen o asistencia para elegi
 **ventas@netguardsolutions.com**
 
 
+## 📬 Soporte y Contacto
+
+Si necesitas ayuda con NetGuard Pro o tienes alguna duda técnica o comercial, puedes comunicarte con nuestro equipo a través de los siguientes medios:
+
+- **Sitio web:** https://www.netguardsolutions.com  
+- **Correo de soporte:** info@netguardsolutions.com  
+- **Teléfono:** +1-800-555-1234  
+- **LinkedIn:** NetGuard Solutions
+
+El soporte estándar está disponible durante horas laborales.  
+Los clientes con licencias Enterprise cuentan con soporte prioritario y tiempos de respuesta garantizados.
+
+---
+
+## 📝 Notas
+
+- Este documento es una guía general; algunas funciones pueden variar según la versión instalada.  
+- Mantén el archivo README actualizado cuando cambien procesos, comandos o requisitos técnicos.  
+- Para información más detallada, consulta la documentación adicional ubicada en la carpeta `/docs`.  
+- Los ejemplos y configuraciones mencionados deben adaptarse a las políticas internas y entornos de cada organización.
 
