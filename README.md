@@ -151,12 +151,7 @@ Esta sección está pensada para quienes quieran trabajar con el proyecto desde 
 
 ---
 
-### ▶️ Cómo preparar tu entorno
 
-Sigue estos pasos para poner el proyecto en funcionamiento en tu computadora:
-
-#### 1. Clonar el proyecto
-```bash
 git clone https://github.com/tu-org/netguard-pro.git
 cd netguard-pro
 ## 💼 Licenciamiento y Precios
