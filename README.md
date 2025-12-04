@@ -23,7 +23,7 @@ NetGuard Pro es una solución empresarial diseñada para optimizar redes, mejora
 
 ---
 
-# 🏢 Acerca de NetGuard Solutions
+##🏢 Acerca de NetGuard Solutions
 NetGuard Solutions es un proveedor líder de software especializado en optimización de redes y ciberseguridad para empresas de diversas industrias, desde startups hasta corporaciones Fortune 500.
 
 ---
